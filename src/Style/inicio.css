@@ -1,0 +1,57 @@
+body {
+    background-image: linear-gradient(to right, #C2234B, #2F0050);
+  }
+
+.inicio-container {
+    width: 140%;
+    height: 100vh;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.inicio-contact-links {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60%;
+}
+
+.titulo {
+    color: white;
+    font-family: cursive;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.inicio-form {
+    display: flex;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+  
+.inicio-form input {
+    width: 140%;
+    padding: 10px;
+    margin: 7px 0;
+}
+  
+.inicio-form img {
+    margin-left: 40%;
+    width: 90%;
+}
+  
+button[type="submit"] {
+    width: 100%;
+    margin-left: 20%;
+    padding: 10px;
+    background-color: #FD2D5E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+button[type="submit"]:hover {
+    background-color: #de0739;
+}
